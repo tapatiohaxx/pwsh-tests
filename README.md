@@ -10,5 +10,6 @@ The second one is: <br>
 <code> gps | export-clixml -path D:\pwsh-tests\process.xml </code> <br>
 This command gets all of the proceses running on my machine and puts them into an XML file. 
 
-Te third is: <br>
-<code> gps |  </code>
+The third is: <br>
+<code> gps | convertto-html -property name,status | out-file D:\pwsh-tests\service.html </code> <br>
+This makes a web page in a neat table format that lists all of the proceses running on the machine chosen.
