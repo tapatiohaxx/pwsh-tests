@@ -14,5 +14,5 @@ The third is: <br>
 <code> gps | convertto-html -property name,status | out-file D:\pwsh-tests\service.html </code> <br>
 This makes a web page in a neat table format that lists all of the proceses running on the machine chosen.
 
-FOurth and more to come....
+
 
